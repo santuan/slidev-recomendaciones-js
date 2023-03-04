@@ -1,0 +1,54 @@
+.slidev-page {
+  background: #1e1e20;
+}
+
+.breadcrumb {
+  @apply fixed left-6 top-0 flex justify-start items-center space-x-3 m-8 text-sm text-gray-400;
+}
+
+.logo {
+  @apply fixed right-6 top-0 mt-4 mx-8;
+}
+
+.logo img {
+  @apply w-12 h-12;
+}
+
+.stars-downloads {
+  @apply top-0 bg-black/5 p-1 px-3 text-xs rounded right-24 fixed flex space-x-6 m-6;
+}
+
+.stars-downloads img {
+  @apply w-6 h-6 mr-2;
+}
+
+.stars-downloads div {
+  @apply flex justify-center items-center;
+}
+
+.tooltip {
+  position: relative; /* making the .tooltip span a container for the tooltip text */
+}
+
+.tooltip:before {
+  content: attr(data-text); /* here's the magic */
+  position: absolute;
+  /* vertically center */
+  top: 50%;
+  transform: translateY(40%);
+  @apply text-xs duration-300;
+  /* basic styles */
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  visibility: hidden;
+  text-align: center;
+  opacity: 0; /* hide by default */
+}
+
+.tooltip:hover:before {
+  opacity: 100;
+  visibility: visible;
+}
