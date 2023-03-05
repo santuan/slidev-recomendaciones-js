@@ -319,6 +319,34 @@ layout: cover
 </style>
 
 
+---
+class: font-mono pt-24
+title: Frameworks
+layout: cover
+---
+
+
+<div class="breadcrumb">
+  <span text-gray-100> Javascript</span>
+  <img src="/logos/chevron.svg"/>
+  <span>Frameworks</span>
+</div>
+
+<div class="logo flex items-center">
+  <p text-xs>State of Javascript 2022</p>
+  <img src="/logos/LogosStateOfJavascript2022.jpg" ml-1/>
+</div>
+
+<img  src="/usage-frameworks.jpg"/>
+
+
+<style>
+.slidev-page  {
+  background: #272324;
+}
+</style>
+
+
 
 ---
 class: font-mono pt-24
@@ -384,32 +412,7 @@ layout: cover
 </style>
 
 
----
-class: font-mono pt-24
-title: Frameworks
-layout: cover
----
 
-
-<div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
-  <img src="/logos/chevron.svg"/>
-  <span>Frameworks</span>
-</div>
-
-<div class="logo flex items-center">
-  <p text-xs>State of Javascript 2022</p>
-  <img src="/logos/LogosStateOfJavascript2022.jpg" ml-1/>
-</div>
-
-<img  src="/usage-frameworks.jpg"/>
-
-
-<style>
-.slidev-page  {
-  background: #272324;
-}
-</style>
 
 
 ---
@@ -460,10 +463,10 @@ title: Vue
 # Vue
 
 - Tiene una gran comunidad de desarrolladores.
-- Evan You (Creador de Vue) es tambien quien creó Vite.
+- Evan You (Creador de Vue) es también quien creó Vite.
 - Mucho de los componentes que estan en React tienen su alternativa en Vue.
     
-  <small class="relative -top-3 text-gray-400">(Solo que React es very popular 😜 )</small>
+  <small class="relative -top-3 text-gray-400 tooltip  before:text-left before:text-xs before:translate-y-2" data-text="La prueba social es un atajo conveniente que los usuarios toman para determinar cómo comportarse. Cuando no están seguros o cuando la situación es ambigua, es más probable que miren y acepten las acciones de los demás como correctas. Cuanto mayor es el número de personas, más apropiada parece la acción. Fuente: https://growth.design/psychology#social-proof">Solo que React es very popular 😜</small>
 
 
 <div class="grid grid-cols-6 gap-12">
@@ -925,17 +928,15 @@ title: Tailwind
 
 <div class="mt-6">
 
-- A diferencia de Bootstrap no trae componentes o interactividad de Javascript. 
+
 - Ideal para Single File Components (SFC).
+- La hoja de estilos deja de crecer. Todo se reutiliza.
 - Resetea todos los estilos. Un &lsaquo;h1&rsaquo; se ve igual que un &lsaquo;a&rsaquo; o un &lsaquo;p&rsaquo;. Esto permite intercambiar las class lo que acelera los ajustes visuales y la semántica.
-- Elimina automaticamen el CSS que no se utiliza. Optimizacion al palo.
-- Tailwind CSS IntelliSense para el IDE.
-- Evitar tener que pensar en nombres para class.
+- Elimina automaticamente el CSS que no se utiliza. Optimizacion al palo.
+- Evitar perder tiempo y energia en elegir nombres de class.
+- Hacer cambios se siente mas seguro.
 
 </div>
-
-<cite class="ml-16 block mt-6 text-gray-400">"No se donde poner esta class en este archivo enorme de CSS.<br>
-Dejame agregarlo al final y si no funciona le pongo !important"</cite>
 
 
 ---
@@ -967,15 +968,16 @@ title: Tailwind
   </div>
 </div>
 
-## Utilidades de CSS. 
+## TailwindCSS. Utilidades de CSS. 
 
 <div class="grid grid-cols-2 gap-6 mt-6">
 
 <div>
 
-- Cada estilo en CSS tiene una su clase en Tailwind.
+- Cada estilo en CSS tiene su class en Tailwind.
+- A diferencia de Bootstrap no trae componentes o interactividad de Javascript. 
 - Hace más sencillo editar estilos a los desarrolladores. (Previene efectos secundarios en cascada)
-- Tambien se pueden establecer class que las agrupen aunque no se recomienda. Mejor crear un componente.
+- Tailwind CSS IntelliSense para el IDE.
 
 </div>
 
@@ -985,6 +987,128 @@ title: Tailwind
 
 </div>
 
+</div>
+
+
+---
+title: Tailwind vs css
+class: 'font-mono pt-24'
+---
+
+
+<div class="breadcrumb">
+  <span text-gray-100> Javascript</span>
+  <img src="/logos/chevron.svg"/>
+  <span> Vue</span>
+  <img src="/logos/chevron.svg"/>
+  <span>TailwindCSS</span>
+</div>
+
+<div class="logo">
+  <img src="/logos/LogosTailwindcssIcon.svg"/>
+</div>
+
+
+<div class="stars-downloads">
+  <div data-text="Descargas semanales en NPM" class="tooltip">
+    <img src="/logos/MaterialSymbolsDownloadRounded.svg"/>
+    <span text-gray-100>5.490.000</span>
+  </div>
+  <div  data-text="Github Stars" class="tooltip">
+    <img src="/logos/MaterialSymbolsStar.svg"/>
+    <span text-gray-100>65.6k</span>
+  </div>
+</div>
+
+<div class="flex justify-between items-center">
+
+## CSS tradicional
+
+## TailwindCSS
+
+
+</div>
+
+<div class="grid grid-cols-2 gap-6 mt-6">
+
+<div class="h-[350px] overflow-y-auto">
+
+```html
+<div class="chat-notification">
+  <div class="chat-notification-logo-wrapper">
+    <img class="chat-notification-logo" src="/img/logo.svg" alt="ChitChat Logo">
+  </div>
+  <div class="chat-notification-content">
+    <h4 class="chat-notification-title">ChitChat</h4>
+    <p class="chat-notification-message">You have a new message!</p>
+  </div>
+</div>
+
+<style>
+  .chat-notification {
+    display: flex;
+    max-width: 24rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  .chat-notification-logo-wrapper {
+    flex-shrink: 0;
+  }
+  .chat-notification-logo {
+    height: 3rem;
+    width: 3rem;
+  }
+  .chat-notification-content {
+    margin-left: 1.5rem;
+    padding-top: 0.25rem;
+  }
+  .chat-notification-title {
+    color: #1a202c;
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
+  .chat-notification-message {
+    color: #718096;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+</style>
+```
+
+</div>
+
+<div>
+
+
+
+```html
+<div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+  <div class="shrink-0">
+    <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo">
+  </div>
+  <div>
+    <div class="text-xl font-medium text-black">ChitChat</div>
+    <p class="text-slate-500">You have a new message!</p>
+  </div>
+</div>
+```
+
+<div class="p-6 mt-12 bg-white rounded-xl shadow-lg flex items-center space-x-4">
+  <div class="shrink-0">
+    <svg class="h-12 w-12" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a"><stop stop-color="#2397B3" offset="0%"></stop><stop stop-color="#13577E" offset="100%"></stop></linearGradient><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b"><stop stop-color="#73DFF2" offset="0%"></stop><stop stop-color="#47B1EB" offset="100%"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M28.872 22.096c.084.622.128 1.258.128 1.904 0 7.732-6.268 14-14 14-2.176 0-4.236-.496-6.073-1.382l-6.022 2.007c-1.564.521-3.051-.966-2.53-2.53l2.007-6.022A13.944 13.944 0 0 1 1 24c0-7.331 5.635-13.346 12.81-13.95A9.967 9.967 0 0 0 13 14c0 5.523 4.477 10 10 10a9.955 9.955 0 0 0 5.872-1.904z" fill="url(#a)" transform="translate(1 1)"></path><path d="M35.618 20.073l2.007 6.022c.521 1.564-.966 3.051-2.53 2.53l-6.022-2.007A13.944 13.944 0 0 1 23 28c-7.732 0-14-6.268-14-14S15.268 0 23 0s14 6.268 14 14c0 2.176-.496 4.236-1.382 6.073z" fill="url(#b)" transform="translate(1 1)"></path><path d="M18 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM24 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM30 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" fill="#FFF"></path></g></svg>
+  </div>
+  <div>
+    <div class="text-xl font-medium text-black">ChitChat</div>
+    <p class="text-slate-500 !m-0">You have a new message!</p>
+  </div>
+</div>
+
+
+
+</div>
 </div>
 
 
@@ -1019,7 +1143,7 @@ title: Tailwind Demo
 
 ## Utilidades de CSS en uso
 
-<video autoplay loop muted playsinline class="mt-3" ><source src="/tailwind.mp4" type="video/mp4"></video>
+<video autoplay loop muted playsinline class="mt-3 rounded-lg" ><source src="/tailwind.mp4" type="video/mp4"></video>
 
 
 ---
@@ -1075,7 +1199,7 @@ PrimeVue y NaiveUI permiten importar solo el componente que se necesite.
 Vuetify es muy bueno para iniciar rapidamente un proyecto pero resulta complejo adaptarlo a un diseño
 porque hay que pisar todos los estilos o aprender a configurando.
 
-<small class="text-green-400 relative -top-4">(recién esta lanzando su version para Vue3).</small>
+<small class="text-green-400 relative -top-4">(recién esta lanzando su versión para Vue3).</small>
 
 <img src="/componentesui.png" class="relative -top-4"/>
 
@@ -1814,3 +1938,49 @@ layout: center
 ### LearnVue es gran canal de youtube para aprender Vue.
 
 <img src="/learnvue.jpg" class="-mx-2"/>
+
+
+
+---
+class: 'font-mono pt-20 text-center'
+title: Sli.dev
+layout: center
+---
+
+<div class="breadcrumb">
+  <span text-gray-100> Javascript</span>
+  <img src="/logos/chevron.svg"/>
+  <span>Vue</span>
+  <img src="/logos/chevron.svg"/>
+  <span>Sli.dev</span>
+</div>
+
+  <img src="/logos/LogosSlidev.png" class="w-64 mx-auto"/>
+
+### Realizado con Sli.dev
+
+## Presentation Slides for Developers
+
+Del creador de Vitest, VueUse, Icones y más.
+
+
+
+---
+class: 'font-mono pt-20 text-center'
+title: End
+layout: center
+---
+
+
+
+
+
+## "Cualquier aplicación que pueda escribirse en Javascript, será eventualmente escrita en Javascript".
+
+<br>
+
+<h1 text-green-400> La ley de Atwood's </h1>
+
+<a href="https://blog.codinghorror.com/the-principle-of-least-power/" text-xs>El principio del poder menor 😜</a>
+
+
