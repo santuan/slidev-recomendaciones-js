@@ -56,7 +56,7 @@ title: Node
 
 <small class="relative block -top-2 text-gray-400 text-xs ml-6">DENO y BUN son alternativas a NODE. Están aún en beta y no es la elección predilecta para usar en producción.</small>
 
-- 📦 **NPM** - "Node Package Manager" es el ecosistema predeterminado de Node para agregar de librerias de código abierto. Lo compro Github. (Microsoft <img src="/logos/LogosMicrosoft.svg" class="inline-block w-4 h-4 relative -top-0.5">) <br> Lee las dependencias en el package.json (como el requirements.txt de python). 
+- 📦 **NPM** - "Node Package Manager" es el ecosistema predeterminado de Node para agregar librerías de código abierto. Lo compro Github. (Microsoft <img src="/logos/LogosMicrosoft.svg" class="inline-block w-4 h-4 relative -top-0.5">) <br> Lee las dependencias en el package.json (como el requirements.txt de python). 
 
 <small class="relative block -top-2 text-gray-400 text-xs ml-6">Existen también YARN y PNPM. Lo importante es no mezclar y utilizar uno solo por proyecto.</small>
 
@@ -774,12 +774,41 @@ title: Seguridad
 
 
 
+---
+class: 'font-mono pt-24'
+layout: center
+title: Tailwind
+---
 
+<div class="breadcrumb">
+  <span text-gray-100> Javascript</span>
+  <img src="/logos/chevron.svg"/>
+  <span> Vue</span>
+  <img src="/logos/chevron.svg"/>
+  <span>TailwindCSS</span>
+</div>
+
+<div class="logo">
+  <img src="/logos/LogosTailwindcssIcon.svg"/>
+</div>
+
+
+<div class="stars-downloads">
+  <div data-text="Descargas semanales en NPM" class="tooltip">
+    <img src="/logos/MaterialSymbolsDownloadRounded.svg"/>
+    <span text-gray-100>5.490.000</span>
+  </div>
+  <div  data-text="Github Stars" class="tooltip">
+    <img src="/logos/MaterialSymbolsStar.svg"/>
+    <span text-gray-100>65.6k</span>
+  </div>
+</div>
+
+<img src="/family-guy-css.gif"  />
 
 
 ---
 class: 'font-mono pt-24'
-laypot: center
 title: Tailwind
 ---
 
@@ -809,8 +838,6 @@ title: Tailwind
 
 ## TailwindCSS. Utilidades de CSS. 
 
-
-
 <div class="mt-6">
 
 - A diferencia de Bootstrap no trae componentes o interactividad de Javascript. 
@@ -818,13 +845,14 @@ title: Tailwind
 - Resetea todos los estilos. Un &lsaquo;h1&rsaquo; se ve igual que un &lsaquo;a&rsaquo; o un &lsaquo;p&rsaquo;. Esto permite intercambiar las class lo que acelera los ajustes visuales y la semántica.
 - Elimina automaticamen el CSS que no se utiliza. Optimizacion al palo.
 - Tailwind CSS IntelliSense para el IDE.
-  
+- Evitar tener que pensar en nombres para class.
 </div>
+
+<cite class="ml-16 block mt-6 text-gray-400">"No se donde poner esta class en este archivo enorme de CSS.<br> Dejame agregarlo al final y si no funciona le pongo !important"</cite>
 
 
 ---
 class: 'font-mono pt-24'
-laypot: center
 title: Tailwind
 ---
 
@@ -859,8 +887,7 @@ title: Tailwind
 <div>
 
 - Cada estilo en CSS tiene una su clase en Tailwind.
-- Hace más sencillo editar estilos a los desarrolladores.
-- El estilo está en el componente. Editar estilos sin miedo a romper en otros sitios.
+- Hace más sencillo editar estilos a los desarrolladores. (Previene efectos secundarios en cascada)
 - Tambien se pueden establecer class que las agrupen.
 
 
