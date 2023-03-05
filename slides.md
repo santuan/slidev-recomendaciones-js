@@ -461,7 +461,7 @@ title: Vue
 
 - Tiene una gran comunidad de desarrolladores.
 - Evan You (Creador de Vue) es tambien quien creó Vite.
-- Mucho de los componentes que estan en React tienen su alternative en Vue.
+- Mucho de los componentes que estan en React tienen su alternativa en Vue.
     
   <small class="relative -top-3 text-gray-400">(Solo que React es very popular 😜 )</small>
 
