@@ -46,6 +46,7 @@
   visibility: hidden;
   text-align: center;
   opacity: 0; /* hide by default */
+  z-index: 9999
 }
 
 .tooltip:hover:before {

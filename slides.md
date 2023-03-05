@@ -414,7 +414,7 @@ layout: cover
 
 ---
 class: 'font-mono pt-20'
-title: Learn Vue
+title: Vue
 layout: center
 ---
 
@@ -423,8 +423,6 @@ layout: center
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
 </div>
-
-
 
 <img src="/logos/LogosVue.svg" class="w-full h-32" />
 <img src="/Vue-intro.png" class="w-full" />
@@ -433,26 +431,76 @@ layout: center
 
 
 ---
-class: 'font-mono pt-20'
-title: Learn Vue
-layout: center
+class: 'font-mono pt-24'
+title: Vue
 ---
 
 <div class="breadcrumb">
   <span text-gray-100> Javascript</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
-  <img src="/logos/chevron.svg"/>
-  <span>LearnVue</span>
 </div>
 
 <div class="logo">
-  <img src="/logos/LogosLearnVue.jpg"/>
+  <img src="/logos/LogosVue.svg"/>
 </div>
 
-### LearnVue es gran canal de youtube para aprender Vue.
+<div class="stars-downloads">
+  <div data-text="Descargas semanales en NPM" class="tooltip">
+    <img src="/logos/MaterialSymbolsDownloadRounded.svg"/>
+    <span text-gray-100>4.000.000</span>
+  </div>
+  <div  data-text="Github Stars" class="tooltip">
+    <img src="/logos/MaterialSymbolsStar.svg"/>
+    <span text-gray-100>35.7k</span>
+  </div>
+</div>
 
-<img src="/learnvue.jpg" class="-mx-2"/>
+
+# Vue
+
+- Tiene una gran comunidad de desarrolladores.
+- Evan You (Creador de Vue) es tambien quien creó Vite.
+- Mucho de los componentes que estan en React tienen su alternative en Vue.
+    
+  <small class="relative -top-3 text-gray-400">(Solo que React es very popular 😜 )</small>
+
+
+<div class="grid grid-cols-6 gap-12">
+
+<div class="text-center text-sm uppercase" >
+<img class="w-32 h-32 duration-300 relative transition-all hover:-translate-y-2 mb-3" src="/logos/LogosVitejs.svg"/>
+Vite
+</div>
+
+<div class="text-center text-sm uppercase" >
+<img class="w-32 h-32 duration-300 relative transition-all hover:-translate-y-2 mb-3" src="/logos/LogosPinia.svg"/>
+Pinia
+</div>
+
+<div class="text-center text-sm uppercase" >
+<img class="w-32 h-32 duration-300 relative transition-all hover:-translate-y-2 mb-3" src="/logos/LogosVitest.svg"/>
+Vitest
+</div>
+
+<div class="text-center text-sm uppercase" >
+<img class="w-32 h-32 duration-300 relative transition-all hover:-translate-y-2 mb-3" src="/logos/LogosVueuse.svg"/>
+VueUse
+</div>
+
+<div class="text-center text-sm uppercase" >
+<img class="w-32 h-32 duration-300 relative transition-all hover:-translate-y-2 mb-3" src="/logos/LogosNuxtIcon.svg"/>
+Nuxt
+</div>
+
+<div class="text-center text-sm uppercase" >
+<img class="w-32 h-32 duration-300 relative transition-all hover:-translate-y-2 mb-3" src="/logos/LogosTypescriptIcon.svg"/>
+Typescript
+</div>
+
+</div>
+
+
 
 
 ---
@@ -732,6 +780,43 @@ title: Vitest
 <img src="/vitest.gif"/>
 
 
+---
+class: 'font-mono pt-24'
+title: Pinia
+---
+
+<div class="breadcrumb">
+  <span text-gray-100> Javascript</span>
+  <img src="/logos/chevron.svg"/>
+  <span>Vue</span>
+  <img src="/logos/chevron.svg"/>
+  <span>Manejo de estados (State Management)</span>
+</div>
+
+<div class="logo">
+  <img src="/logos/LogosPinia.svg"/>
+</div>
+
+<div class="stars-downloads">
+  <div data-text="Descargas semanales en NPM" class="tooltip">
+    <img src="/logos/MaterialSymbolsDownloadRounded.svg"/>
+    <span text-gray-100>549.387</span>
+  </div>
+  <div  data-text="Github Stars" class="tooltip">
+    <img src="/logos/MaterialSymbolsStar.svg"/>
+    <span text-gray-100>10k</span>
+  </div>
+</div>
+
+## Pinia
+
+<br>
+
+- Viene a reemplazar Vuex porque soporta typescript.
+- Para almacenar y acceder a estados de manera global y consumir desde cualquier parte de la App.
+
+<img mt-6 shadow-lg src="/pinia.png"  />
+
 
 ---
 class: 'font-mono pt-20'
@@ -846,9 +931,11 @@ title: Tailwind
 - Elimina automaticamen el CSS que no se utiliza. Optimizacion al palo.
 - Tailwind CSS IntelliSense para el IDE.
 - Evitar tener que pensar en nombres para class.
+
 </div>
 
-<cite class="ml-16 block mt-6 text-gray-400">"No se donde poner esta class en este archivo enorme de CSS.<br> Dejame agregarlo al final y si no funciona le pongo !important"</cite>
+<cite class="ml-16 block mt-6 text-gray-400">"No se donde poner esta class en este archivo enorme de CSS.<br>
+Dejame agregarlo al final y si no funciona le pongo !important"</cite>
 
 
 ---
@@ -888,8 +975,7 @@ title: Tailwind
 
 - Cada estilo en CSS tiene una su clase en Tailwind.
 - Hace más sencillo editar estilos a los desarrolladores. (Previene efectos secundarios en cascada)
-- Tambien se pueden establecer class que las agrupen.
-
+- Tambien se pueden establecer class que las agrupen aunque no se recomienda. Mejor crear un componente.
 
 </div>
 
@@ -898,6 +984,7 @@ title: Tailwind
 <img rounded-lg bg-white p-3 shadow-lg src="/tailwind-css.png" />
 
 </div>
+
 </div>
 
 
@@ -935,9 +1022,6 @@ title: Tailwind Demo
 <video autoplay loop muted playsinline class="mt-3" ><source src="/tailwind.mp4" type="video/mp4"></video>
 
 
-
-
-
 ---
 class: 'font-mono pt-20'
 title: HeadlessUI
@@ -955,7 +1039,6 @@ title: HeadlessUI
   <img src="/logos/LogosHeadlessuiIcon.svg"/>
 </div>
 
-
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM. (1.000.000 son de React)" class="tooltip">
     <img src="/logos/MaterialSymbolsDownloadRounded.svg"/>
@@ -970,10 +1053,6 @@ title: HeadlessUI
 Componentes completamente accesibles, sin estilos, diseñados para integrarse con Tailwind CSS. **Para Vue y React**.
 
 <img src="/headlessui.png" />
-
-
-
-
 
 
 ---
@@ -999,7 +1078,6 @@ porque hay que pisar todos los estilos o aprender a configurando.
 <small class="text-green-400 relative -top-4">(recién esta lanzando su version para Vue3).</small>
 
 <img src="/componentesui.png" class="relative -top-4"/>
-
 
 
 ---
@@ -1533,6 +1611,8 @@ class: font-mono pt-24
 <div class="breadcrumb">
   <span text-gray-100> Javascript</span>
   <img src="/logos/chevron.svg"/>
+  <span>Vite</span>
+  <img src="/logos/chevron.svg"/>
   <span>Astro</span>
 </div>
 
@@ -1710,3 +1790,27 @@ class: font-mono pt-24
 </div>
 
 </div>
+
+
+
+---
+class: 'font-mono pt-20'
+title: Learn Vue
+layout: center
+---
+
+<div class="breadcrumb">
+  <span text-gray-100> Javascript</span>
+  <img src="/logos/chevron.svg"/>
+  <span>Vue</span>
+  <img src="/logos/chevron.svg"/>
+  <span>LearnVue</span>
+</div>
+
+<div class="logo">
+  <img src="/logos/LogosLearnVue.jpg"/>
+</div>
+
+### LearnVue es gran canal de youtube para aprender Vue.
+
+<img src="/learnvue.jpg" class="-mx-2"/>
