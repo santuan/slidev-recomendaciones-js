@@ -724,24 +724,66 @@ title: Archivos de Configuración
   <span>Archivos de Configuración</span>
 </div>
 
-<div class="logo">
-  <img src="/logos/LogosVueConfig.svg"/>
-</div>
+
 
 
 ### Archivos .config sirven para asistir al programador. 
 
-- **Eslint** - Para encontrar y arreglar problemas en el código.
-  - _tipo de javascript permitido (ES2021, ES2015)_
-  - _estandarizar tipo de comillas a usar (comilla simple)_
 
-- **Prettier** - Un formateador de codigo opinionado para mantener un estilo de codigo.
-  - _ancho de lineas_
-  - _un atributo por linea_
+<div class="grid grid-cols-6 mt-2">
+
+
+<div class="col-span-5">
+
+**Eslint** - Para encontrar y arreglar problemas en el código.
+
+- _tipo de javascript permitido (ES2021, ES2015)_
+- _estandarizar tipo de comillas a usar (comilla simple)_
+
+</div>
+
+<div >
+
+<img src="/logos/LogosEslint.svg" class="w-20 mt-3"/>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+<div class="grid grid-cols-6 mt-2">
+
+<div class="col-span-5">
+
+
+**Prettier** - Un formateador de codigo opinionado para mantener un estilo de codigo.
+
+- _ancho de líneas_
+- _un atributo por línea_
+
+</div>
+
+<div>
+
+<img src="/logos/LogosPrettier.svg" class="w-16 mt-3"/>
+
+</div>
+
+
+</div>
+
+
   
-- **jsconfig/tsconfig**
-  - Intellisense para los IDE con LSP (Language Server Protocol).
-  - Permite configurar paths para importar componentes dentro del proyecto.
+**.jsconfig / .tsconfig**
+
+- Intellisense para los IDE con LSP (Language Server Protocol).
+- Permite configurar paths para importar componentes dentro del proyecto.
 
 
 
