@@ -131,38 +131,6 @@ layout: cover
 </div>
 
 
----
-class: 'font-mono pt-24'
-title: Vite vs vue-cli
----
-
-<div class="breadcrumb">
-  <span text-gray-100> Node.js</span>
-  <img src="/logos/chevron.svg"/>
-  <span text-gray-100>Vite</span>
-  <img src="/logos/chevron.svg"/>
-  <span>Cold-starting the dev server</span>
-</div>
-
-<a class="logo" href="https://vitejs.dev/" target="_blank">
-  <img src="/logos/LogosVitejs.svg"/>
-</a>
-
-
-<div class="stars-downloads">
-  <div data-text="Descargas semanales en NPM" class="tooltip">
-    <img src="/logos/MaterialSymbolsDownloadRounded.svg"/>
-    <span text-gray-100>3.500.000</span>
-  </div>
-  <div data-text="Github Stars" class="tooltip">
-    <img src="/logos/MaterialSymbolsStar.svg"/>
-    <span text-gray-100>53.4k</span>
-  </div>
-</div>
-
-## Start serve en Vue-cli vs Vite
-
-<video autoplay loop muted playsinline class="w-full" ><source src="/vue-cli-vs-vite.mp4" type="video/mp4"></video>
 
 ---
 class: font-mono pt-24
