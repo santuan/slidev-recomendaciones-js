@@ -1,5 +1,7 @@
-.slidev-page {
+.slidev-page,
+#slide-content {
   background: #1e1e20;
+  @apply text-white;
 }
 
 .breadcrumb {
@@ -46,7 +48,7 @@
   visibility: hidden;
   text-align: center;
   opacity: 0; /* hide by default */
-  z-index: 9999
+  z-index: 9999;
 }
 
 .tooltip:hover:before {
