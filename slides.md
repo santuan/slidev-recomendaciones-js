@@ -2,7 +2,7 @@
 theme: default
 background: https://images.unsplash.com/photo-1608433223113-bb8d2ee51eb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80
 # apply any windi css classes to the current slide
-class: "text-center"
+class: "text-center font-mono"
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
 # show line numbers in code blocks
@@ -30,6 +30,8 @@ colorSchema: 'dark'
 
 
 <h1 class="font-mono font-bold">Recomendaciones para <br/> el desarrollo <br/> en Javascript.</h1>
+
+### **(EL CASO DE VUE.JS)**
 
 
 ---
@@ -387,6 +389,41 @@ layout: center
 
 <img src="/logos/LogosVue.svg" class="w-full h-32" />
 <img src="/Vue-intro.png" class="w-full" />
+
+
+
+
+---
+class: 'font-mono pt-24 text-center'
+title: Vue Documental
+---
+
+<div class="breadcrumb">
+  <span text-gray-100> Javascript</span>
+  <img src="/logos/chevron.svg"/>
+  <span>Vue</span>
+</div>
+
+<a class="logo" href="https://vuejs.org/" target="_blank">
+  <img src="/logos/LogosVue.svg"/>
+</a>
+
+<div class="stars-downloads">
+  <div data-text="Descargas semanales en NPM" class="tooltip">
+    <img src="/logos/MaterialSymbolsDownloadRounded.svg"/>
+    <span text-gray-100>4.000.000</span>
+  </div>
+  <div data-text="Github Stars" class="tooltip">
+    <img src="/logos/MaterialSymbolsStar.svg"/>
+    <span text-gray-100>35.7k</span>
+  </div>
+</div>
+
+## ¿Qúe es Vue?
+
+<iframe width="560" height="315" class="my-3 mx-auto" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Para dar contexto
 
 ---
 class: 'font-mono pt-24'
@@ -880,7 +917,8 @@ title: Tailwind
 - Ideal para Single File Components (SFC).
 - La hoja de estilos deja de crecer. Todo se reutiliza.
 - Resetea todos los estilos. Un &lsaquo;h1&rsaquo; se ve igual que un &lsaquo;a&rsaquo; o un &lsaquo;p&rsaquo;. Esto permite intercambiar las class lo que acelera los ajustes visuales y la semántica.
-- Elimina automaticamente el CSS que no se utiliza. Optimizacion al palo.
+- Elimina automaticamente el CSS que no se utiliza. <br>
+  <span class="text-gray-400 relative -top-1 text-sm">Usualmente es entre 95% a 98% en mi experiencia.</span>
 - Evitar perder tiempo y energia en elegir nombres de class.
 - Hacer cambios se siente mas seguro.
 
@@ -934,6 +972,15 @@ title: Tailwind
 </div>
 
 </div>
+
+<style>
+
+li {
+  @apply text-sm
+}
+
+</style>
+
 
 ---
 title: Tailwind vs css
@@ -1021,7 +1068,7 @@ class: 'font-mono pt-24'
     font-size: 1rem;
     line-height: 1.5;
   }
-</style>
+</>
 ```
 
 </div>
