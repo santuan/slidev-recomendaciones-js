@@ -39,7 +39,7 @@ title: Node
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Entorno local</span>
 </div>
@@ -74,7 +74,7 @@ title: Vite
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vite</span>
 </div>
@@ -106,7 +106,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span text-gray-100>Vite</span>
   <img src="/logos/chevron.svg"/>
@@ -130,6 +130,40 @@ layout: cover
   </div>
 </div>
 
+
+---
+class: 'font-mono pt-24'
+title: Vite vs vue-cli
+---
+
+<div class="breadcrumb">
+  <span text-gray-100> Node.js</span>
+  <img src="/logos/chevron.svg"/>
+  <span text-gray-100>Vite</span>
+  <img src="/logos/chevron.svg"/>
+  <span>Cold-starting the dev server</span>
+</div>
+
+<a class="logo" href="https://vitejs.dev/" target="_blank">
+  <img src="/logos/LogosVitejs.svg"/>
+</a>
+
+
+<div class="stars-downloads">
+  <div data-text="Descargas semanales en NPM" class="tooltip">
+    <img src="/logos/MaterialSymbolsDownloadRounded.svg"/>
+    <span text-gray-100>3.500.000</span>
+  </div>
+  <div data-text="Github Stars" class="tooltip">
+    <img src="/logos/MaterialSymbolsStar.svg"/>
+    <span text-gray-100>53.4k</span>
+  </div>
+</div>
+
+## Start serve en Vue-cli vs Vite
+
+<video autoplay loop muted playsinline class="w-full" ><source src="/vue-cli-vs-vite.mp4" type="video/mp4"></video>
+
 ---
 class: font-mono pt-24
 title: Library Tier List
@@ -137,7 +171,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Librerias por niveles</span>
 </div>
@@ -162,7 +196,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Librerias por niveles</span>
   <img src="/logos/chevron.svg"/>
@@ -190,7 +224,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Librerias por niveles</span>
   <img src="/logos/chevron.svg"/>
@@ -218,7 +252,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Librerias por niveles</span>
   <img src="/logos/chevron.svg"/>
@@ -246,7 +280,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Librerias por niveles</span>
   <img src="/logos/chevron.svg"/>
@@ -274,7 +308,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Librerias por niveles</span>
   <img src="/logos/chevron.svg"/>
@@ -302,7 +336,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Frameworks</span>
 </div>
@@ -327,7 +361,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Frameworks</span>
 </div>
@@ -354,7 +388,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Frameworks</span>
 </div>
@@ -380,7 +414,7 @@ layout: center
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
 </div>
@@ -397,7 +431,7 @@ title: Vue Documental
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
 </div>
@@ -430,7 +464,7 @@ title: Vue
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
 </div>
@@ -498,7 +532,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span text-gray-100>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -581,7 +615,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -624,7 +658,7 @@ title: VueUse
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -657,7 +691,7 @@ title: VueUse
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -687,7 +721,7 @@ title: Archivos de Configuración
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -745,7 +779,7 @@ title: Vitest
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -781,7 +815,7 @@ title: Pinia
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -818,7 +852,7 @@ title: Seguridad
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -856,7 +890,7 @@ title: Tailwind
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span> Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -886,7 +920,7 @@ title: Tailwind
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span> Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -928,7 +962,7 @@ title: Tailwind
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span> Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -986,7 +1020,7 @@ class: 'font-mono pt-24'
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span> Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1106,7 +1140,7 @@ title: Tailwind Demo
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1138,7 +1172,7 @@ title: HeadlessUI
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1170,7 +1204,7 @@ title: Componentes UI
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1194,7 +1228,7 @@ title: Librerias UI
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1210,7 +1244,7 @@ layout: center
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1226,7 +1260,7 @@ title: Tanstack Table
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1264,7 +1298,7 @@ title: Tanstack Table
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1299,7 +1333,7 @@ title: Tanstack Table
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1331,7 +1365,7 @@ title: Graficos
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1367,7 +1401,7 @@ title: Validar Forms
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1388,7 +1422,7 @@ title: VeeValidate vs Vuelidate
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1456,7 +1490,7 @@ title: WYSIWYG
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1477,7 +1511,7 @@ title: Unplugin Icons
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1550,7 +1584,7 @@ layout: cover
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1584,7 +1618,7 @@ title: Nuxt
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1637,7 +1671,7 @@ title: Markdown
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Markdown</span>
 </div>
@@ -1702,7 +1736,7 @@ class: font-mono pt-24
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vite</span>
   <img src="/logos/chevron.svg"/>
@@ -1741,7 +1775,7 @@ class: font-mono pt-24
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Alpine.js</span>
 </div>
@@ -1815,7 +1849,7 @@ class: font-mono pt-24
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Alpine.js</span>
 </div>
@@ -1883,7 +1917,7 @@ layout: center
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
@@ -1905,7 +1939,7 @@ layout: center
 ---
 
 <div class="breadcrumb">
-  <span text-gray-100> Javascript</span>
+  <span text-gray-100> Node.js</span>
   <img src="/logos/chevron.svg"/>
   <span>Vue</span>
   <img src="/logos/chevron.svg"/>
