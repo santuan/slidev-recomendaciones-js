@@ -1210,7 +1210,7 @@ title: Tanstack Table
   </div>
 </div>
 
-## ¿Porque Tanstack Tables?
+## ¿Por qué Tanstack Tables?
 
 <iframe width="560" height="315" class="mx-auto mt-6" src="https://www.youtube.com/embed/O4IWJcafX8c?start=71" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
