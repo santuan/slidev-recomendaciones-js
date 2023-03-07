@@ -8,11 +8,10 @@ highlighter: shiki
 # show line numbers in code blocks
 lineNumbers: false
 # some information about the slides, markdown enabled
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+info: false
+title: 'Inicio'
+# titleTemplate for the webpage, `%s` will be replaced by the page's title
+titleTemplate: '%s - Recomendaciones para usar Vue.js'
 # persist drawings in exports and build
 fonts:
   # for code blocks, inline code, etc.
@@ -23,7 +22,6 @@ drawings:
 transition: fade
 # use UnoCSS
 css: unocss
-title: Inicio
 layout: cover
 colorSchema: 'dark'
 ---
