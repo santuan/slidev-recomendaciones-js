@@ -131,7 +131,6 @@ layout: cover
 </div>
 
 
-
 ---
 class: font-mono pt-24
 title: Library Tier List
@@ -683,63 +682,9 @@ title: VueUse
   </div>
 </div>
 
----
-class: 'font-mono pt-24'
-title: Archivos de Configuración
----
 
-<div class="breadcrumb">
-  <span text-gray-100> Node.js</span>
-  <img src="/logos/chevron.svg"/>
-  <span>Vue</span>
-  <img src="/logos/chevron.svg"/>
-  <span>Archivos de Configuración</span>
-</div>
 
-### Archivos .config sirven para asistir al programador.
 
-<div class="grid grid-cols-6 mt-2">
-
-<div class="col-span-5">
-
-**Eslint** - Para encontrar y arreglar problemas en el código.
-
-- _tipo de javascript permitido (ES2021, ES2015)_
-- _estandarizar tipo de comillas a usar (comilla simple)_
-
-</div>
-
-<div >
-
-<img src="/logos/LogosEslint.svg" class="w-20 mt-3"/>
-
-</div>
-
-</div>
-
-<div class="grid grid-cols-6 mt-2">
-
-<div class="col-span-5">
-
-**Prettier** - Un formateador de codigo opinionado para mantener un estilo de codigo.
-
-- _ancho de líneas_
-- _un atributo por línea_
-
-</div>
-
-<div>
-
-<img src="/logos/LogosPrettier.svg" class="w-16 mt-3"/>
-
-</div>
-
-</div>
-
-**.jsconfig / .tsconfig**
-
-- Intellisense para los IDE con LSP (Language Server Protocol).
-- Permite configurar paths para importar componentes dentro del proyecto.
 
 ---
 class: 'font-mono pt-24'
@@ -1378,14 +1323,15 @@ title: Validar Forms
 
 ## Validación de formularios
 
-Hay dos escuelas de pensamiento en lo que respecta a la validación de formularios, el enfoque declarativo (vee-validate) y el imperativo (vuelidate). Eso significa que no existe una solución definitiva que se adapte a todos. Depende en gran medida de su aplicación.
+- Hay dos escuelas de pensamiento en lo que respecta a la validación de formularios, el enfoque declarativo (vee-validate) y el imperativo (vuelidate). Eso significa que no existe una solución definitiva que se adapte a todos.
+- Depende en gran medida de la app.
 
 <img src="/vuevalidate-vs-veevalidate.png"  />
 
-<a class="text-xs text-green-400 fixed top-8 right-16" href="https://www.reddit.com/r/vuejs/comments/emcsoa/veevalidate_vs_vuelidate/">veevalidate_vs_vuelidate</a>
+<a class="text-xs text-green-400 fixed top-8 right-16" target="_blank" href="https://www.reddit.com/r/vuejs/comments/emcsoa/veevalidate_vs_vuelidate/">veevalidate_vs_vuelidate</a>
 
 ---
-class: 'font-mono pt-20'
+class: 'font-mono pt-24'
 title: VeeValidate vs Vuelidate
 ---
 
@@ -1452,7 +1398,7 @@ Valída Valores
 </div>
 
 ---
-class: 'font-mono pt-12'
+class: 'font-mono pt-0'
 layout: center
 title: WYSIWYG
 ---
@@ -1507,23 +1453,23 @@ title: Unplugin Icons
 
 <div>
 
-- **Cualquier conjunto de íconos** <br> más de
-  100 conjuntos populares con más de
-  10,000 íconos, logotipos, emojis, etc.
-  Desarrollado por Iconify.
+- **Cualquier conjunto de íconos** <br> de las más de
+  100 librerias populares. Más de 
+  10,000 íconos, logotipos, emojis, etc. <br>
+  Proyecto de <a href="https://iconify.design/" target="_blank">Iconify</a>.
 
 - **Estilizable** <br> permite cambiar el tamaño, el
   color o incluso agregue animaciones
   usando estilos y clases.
 
-- **SVG** <br> En producción el icono queda en este formato.
+-  En producción el icono queda en formato **SVG**.
 
 
 </div>
 
-<div class="pt-4">
+<div class="pt-1">
 
-<small text-green-400>ver en https://icones.js.org/</small>
+
 
 ```vue
 <script setup>
@@ -1537,6 +1483,7 @@ import IconAccountBox from "~icons/mdi/account-box";
 </template>
 ```
 
+<small text-green-400>ver en https://icones.js.org/</small>
 
 
 </div>
@@ -1632,6 +1579,32 @@ li {
 }
 
 </style>
+
+
+
+
+
+---
+class: 'font-mono pt-24 text-center'
+title: Config fireship io
+---
+
+
+<div class="breadcrumb">
+  <span text-gray-100> Node.js</span>
+  <img src="/logos/chevron.svg"/>
+  <span>Config Files</span>
+</div>
+
+
+### Archivos .config
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/14WanxTD2O4" class="mx-auto my-6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Sirven para asistir al programador.
+
+
 
 ---
 class: 'font-mono pt-24'
