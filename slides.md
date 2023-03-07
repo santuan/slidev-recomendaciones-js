@@ -44,9 +44,9 @@ title: Node
   <span>Entorno local</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://nodejs.org/en/" target="_blank">
   <img src="/logos/LogosNodejsIcon.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div >
@@ -79,9 +79,9 @@ title: Vite
   <span>Vite</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://vitejs.dev/" target="_blank">
   <img src="/logos/LogosVitejs.svg"/>
-</div>
+</a>
 
 <h3 mb-2> &#x2022; Herramienta para la compilación de proyectos JS/TS</h3>
 <h3 mb-2> &#x2022; Mejora sustancial tanto para Dev como en Prod</h3>
@@ -113,9 +113,9 @@ layout: cover
   <span>Soporte</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://vitejs.dev/" target="_blank">
   <img src="/logos/LogosVitejs.svg"/>
-</div>
+</a>
 
 <img src="/vite-ecosystem.jpg" class="max-w-6xl w-full mt-2"/>
 
@@ -142,10 +142,10 @@ layout: cover
   <span>Librerias por niveles</span>
 </div>
 
-<div class="logo flex items-center">
+<a href="https://2022.stateofjs.com/en-US/usage/" target="_blank" class="logo flex items-center">
   <p text-xs>State of Javascript 2022</p>
   <img src="/logos/LogosStateOfJavascript2022.jpg" ml-1/>
-</div>
+</a>
 
 <img src="/tier-list-all.jpg"/>
 
@@ -169,10 +169,10 @@ layout: cover
   <span>Front-end Frameworks</span>
 </div>
 
-<div class="logo flex items-center">
+<a href="https://2022.stateofjs.com/en-US/usage/" target="_blank" class="logo flex items-center">
   <p text-xs>State of Javascript 2022</p>
   <img src="/logos/LogosStateOfJavascript2022.jpg" ml-1/>
-</div>
+</a>
 
 <img src="/tier-list-frontend.jpg"/>
 
@@ -197,10 +197,10 @@ layout: cover
   <span>Rendering Frameworks</span>
 </div>
 
-<div class="logo flex items-center">
+<a href="https://2022.stateofjs.com/en-US/usage/" target="_blank" class="logo flex items-center">
   <p text-xs>State of Javascript 2022</p>
   <img src="/logos/LogosStateOfJavascript2022.jpg" ml-1/>
-</div>
+</a>
 
 <img src="/tier-list-rendering.jpg"/>
 
@@ -225,10 +225,10 @@ layout: cover
   <span>Testing</span>
 </div>
 
-<div class="logo flex items-center">
+<a href="https://2022.stateofjs.com/en-US/usage/" target="_blank" class="logo flex items-center">
   <p text-xs>State of Javascript 2022</p>
   <img src="/logos/LogosStateOfJavascript2022.jpg" ml-1/>
-</div>
+</a>
 
 <img src="/tier-list-testing.jpg"/>
 
@@ -253,10 +253,10 @@ layout: cover
   <span>Build Tools</span>
 </div>
 
-<div class="logo flex items-center">
+<a href="https://2022.stateofjs.com/en-US/usage/" target="_blank" class="logo flex items-center">
   <p text-xs>State of Javascript 2022</p>
   <img src="/logos/LogosStateOfJavascript2022.jpg" ml-1/>
-</div>
+</a>
 
 <img src="/tier-list-build.jpg"/>
 
@@ -281,10 +281,10 @@ layout: cover
   <span>Monorepos</span>
 </div>
 
-<div class="logo flex items-center">
+<a href="https://2022.stateofjs.com/en-US/usage/" target="_blank" class="logo flex items-center">
   <p text-xs>State of Javascript 2022</p>
   <img src="/logos/LogosStateOfJavascript2022.jpg" ml-1/>
-</div>
+</a>
 
 <img src="/tier-list-monorepos.jpg"/>
 
@@ -307,10 +307,10 @@ layout: cover
   <span>Frameworks</span>
 </div>
 
-<div class="logo flex items-center">
+<a href="https://2022.stateofjs.com/en-US/usage/" target="_blank" class="logo flex items-center">
   <p text-xs>State of Javascript 2022</p>
   <img src="/logos/LogosStateOfJavascript2022.jpg" ml-1/>
-</div>
+</a>
 
 <img src="/usage-frameworks.jpg"/>
 
@@ -332,10 +332,10 @@ layout: cover
   <span>Frameworks</span>
 </div>
 
-<div class="logo flex items-center">
+<a href="https://2022.stateofjs.com/en-US/usage/" target="_blank" class="logo flex items-center">
   <p text-xs>State of Javascript 2022</p>
   <img src="/logos/LogosStateOfJavascript2022.jpg" ml-1/>
-</div>
+</a>
 
 <img src="/retencion-frameworks.jpg"/>
 
@@ -345,13 +345,6 @@ layout: cover
 }
 </style>
 
-<!--
-
-Esto tenerlo en el contexto de que cada vez mas gente usa js.
-
-Y la mayoria por el Hype o la novedad eligio React.
-
--->
 
 ---
 class: font-mono pt-24
@@ -366,10 +359,10 @@ layout: cover
   <span>Frameworks</span>
 </div>
 
-<div class="logo flex items-center">
+<a href="https://2022.stateofjs.com/en-US/usage/" target="_blank" class="logo flex items-center">
   <p text-xs>State of Javascript 2022</p>
   <img src="/logos/LogosStateOfJavascript2022.jpg" ml-1/>
-</div>
+</a>
 
 <img src="/retencion-vue.jpg"/>
 
@@ -407,9 +400,9 @@ title: Vue
   <span>Vue</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://vuejs.org/" target="_blank">
   <img src="/logos/LogosVue.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -477,9 +470,9 @@ layout: cover
   <span>Composition API</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://vuejs.org/" target="_blank">
   <img src="/logos/LogosVue.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -505,7 +498,7 @@ Dos estilos diferentes para generar componentes. Ambos obtienen el mismo resulta
   <p>Options API</p>
 </div>
 
-```vue {0|all|1-9|11-14|all}
+```vue {0|all}
 <script>
 export default {
   data() {
@@ -530,7 +523,7 @@ export default {
   <p>Composition API</p>
 </div>
 
-```vue {0|all|1-4|6-8|all}
+```vue {0|all}
 <script setup>
 import { ref } from "vue";
 const message = ref("Hello World!");
@@ -560,9 +553,9 @@ layout: cover
   <span>Typescript</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://www.typescriptlang.org/" target="_blank">
   <img src="/logos/LogosTypescriptIcon.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -603,9 +596,9 @@ title: VueUse
   <span>VueUse</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://vueuse.org/" target="_blank">
   <img src="/logos/LogosVueuse.svg"/>
-</div>
+</a>
 
 <h3 mb-2>Colección de utilidades y componentes para extender Vue.</h3>
 
@@ -636,9 +629,9 @@ title: VueUse
   <span>VueUse</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://vueuse.org/" target="_blank">
   <img src="/logos/LogosVueuse.svg"/>
-</div>
+</a>
 
 <img src="/vue-use-components.png"/>
 
@@ -724,9 +717,9 @@ title: Vitest
   <span>Vitest</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://vitest.dev/" target="_blank">
   <img src="/logos/LogosVitest.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -760,9 +753,9 @@ title: Pinia
   <span>Manejo de estados (State Management)</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://pinia.vuejs.org/" target="_blank">
   <img src="/logos/LogosPinia.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -797,9 +790,9 @@ title: Seguridad
   <span>Seguridad</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://vuejs.org/guide/best-practices/security.html#best-practices" target="_blank">
   <img src="/logos/CarbonSecurity.svg"/>
-</div>
+</a>
 
 La regla general es que si permite que se ejecute contenido no “sanitizado” proporcionado por el usuario, podría exponerse a ataques.
 
@@ -835,9 +828,9 @@ title: Tailwind
   <span>TailwindCSS</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://tailwindcss.com/" target="_blank">
   <img src="/logos/LogosTailwindcssIcon.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -865,9 +858,9 @@ title: Tailwind
   <span>TailwindCSS</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://tailwindcss.com/" target="_blank">
   <img src="/logos/LogosTailwindcssIcon.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -906,9 +899,9 @@ title: Tailwind
   <span>TailwindCSS</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://tailwindcss.com/" target="_blank">
   <img src="/logos/LogosTailwindcssIcon.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -955,9 +948,9 @@ class: 'font-mono pt-24'
   <span>TailwindCSS</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://tailwindcss.com/" target="_blank">
   <img src="/logos/LogosTailwindcssIcon.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -1075,9 +1068,9 @@ title: Tailwind Demo
   <span>TailwindCSS</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://tailwindcss.com/" target="_blank">
   <img src="/logos/LogosTailwindcssIcon.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -1107,9 +1100,9 @@ title: HeadlessUI
   <span>HeadlessUI</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://headlessui.com/" target="_blank">
   <img src="/logos/LogosHeadlessuiIcon.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM. (1.000.000 son de React)" class="tooltip">
@@ -1195,9 +1188,9 @@ title: Tanstack Table
   <span>DataTable</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://tanstack.com/" target="_blank">
   <img src="/logos/LogosTanstack.png"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -1212,9 +1205,13 @@ title: Tanstack Table
 
 ## ¿Por qué Tanstack Tables?
 
-<iframe width="560" height="315" class="mx-auto mt-6" src="https://www.youtube.com/embed/O4IWJcafX8c?start=71" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<small class="text-green-400 relative -top-3">(revelación en el 15:11)</small>
+
+<iframe width="560" height="315" class="mx-auto relative -top-3" src="https://www.youtube.com/embed/O4IWJcafX8c?start=71" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Conferencia de su creador para dar contexto
+
+
 
 ---
 class: 'font-mono pt-24 text-center'
@@ -1229,9 +1226,9 @@ title: Tanstack Table
   <span>DataTable</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://tanstack.com/" target="_blank">
   <img src="/logos/LogosTanstack.png"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -1264,9 +1261,9 @@ title: Tanstack Table
   <span>DataTable</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://tanstack.com/" target="_blank">
   <img src="/logos/LogosTanstack.png"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -1296,9 +1293,9 @@ title: Graficos
   <span>Gráficos</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://www.chartjs.org/" target="_blank">
   <img src="/logos/chartjs.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -1442,9 +1439,9 @@ title: Unplugin Icons
   <span>Unplugin Icons</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://icones.js.org/" target="_blank">
   <img src="/logos/Logounpluginicons-icones.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -1515,9 +1512,9 @@ layout: cover
   <span>Fuse.js</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://fusejs.io" target="_blank">
   <img src="/logos/LogosFusejs.png"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -1549,9 +1546,9 @@ title: Nuxt
   <span>Nuxt.js (metaframework)</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://nuxt.com/" target="_blank">
   <img src="/logos/LogosNuxtIcon.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -1600,9 +1597,9 @@ title: Markdown
   <span>Markdown</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://www.markdownguide.org/" target="_blank">
   <img src="/logos/LogosMarkdown.svg"/>
-</div>
+</a>
 
 # Markdown
 
@@ -1667,9 +1664,9 @@ class: font-mono pt-24
   <span>Astro</span>
 </div>
 
-<div class="logo top-3">
+<a class="logo top-3" href="https://astro.build/" target="_blank">
   <img src="/logos/LogosAstro.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -1704,9 +1701,9 @@ class: font-mono pt-24
   <span>Alpine.js</span>
 </div>
 
-<div class="logo ">
+<a class="logo" href="https://alpinejs.dev/" target="_blank">
   <img src="/logos/LogosAlpinejsIcon.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -1778,9 +1775,9 @@ class: font-mono pt-24
   <span>Alpine.js</span>
 </div>
 
-<div class="logo ">
+<a class="logo" href="https://alpinejs.dev/" target="_blank">
   <img src="/logos/LogosAlpinejsIcon.svg"/>
-</div>
+</a>
 
 <div class="stars-downloads">
   <div data-text="Descargas semanales en NPM" class="tooltip">
@@ -1848,9 +1845,9 @@ layout: center
   <span>LearnVue</span>
 </div>
 
-<div class="logo">
+<a class="logo" href="https://www.youtube.com/@LearnVue/videos" target="_blank">
   <img src="/logos/LogosLearnVue.jpg"/>
-</div>
+</a>
 
 ### LearnVue es gran canal de youtube para aprender Vue.
 

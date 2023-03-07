@@ -9,7 +9,8 @@
 }
 
 .logo {
-  @apply fixed right-6 top-0 mt-4 mx-8;
+  @apply fixed right-6 top-0 mt-4 mx-8 hover:scale-105 duration-300 hover:opacity-80;
+  border: 0 none !important;
 }
 
 .logo img {
